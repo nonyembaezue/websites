@@ -1,0 +1,89 @@
+body {
+    background-color: #001a33; /* deep dark blue, futuristic */
+    color: #99ccff; /* light blue text for contrast */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-image: url("images/metroidwallpaper.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; 
+    font-family: 'Orbitron', sans-serif; 
+    
+}
+
+#wrap {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #0a1e3a; /* slightly lighter blue panel */
+    border-radius: 10px;
+    box-shadow: 0 0 10px #3399ff;
+}
+
+header h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5rem;
+    color: #66ccff;
+    text-align: center;
+    margin-bottom: 0.2em;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #99ccff;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+/* Pseudo-classes for links */
+nav ul li a:link {
+    color: #99ccff;
+}
+
+nav ul li a:visited {
+    color: #66aaff;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    background-color: #3399ff;
+    color: #001a33;
+    outline: none;
+}
+
+nav ul li a:active {
+    background-color: #004080;
+    color: #cce6ff;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+    border-top: 1px solid #3399ff;
+    color: #66ccff;
+    font-size: 0.9rem;
+}
+
+footer nav a img {
+    margin: 0 8px;
+    vertical-align: middle;
+    filter: drop-shadow(0 0 2px #3399ff);
+}
+

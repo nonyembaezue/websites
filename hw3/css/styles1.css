@@ -1,0 +1,84 @@
+/* Orbitron font weights */
+@font-face {
+    font-family: 'Orbitron';
+    src: url('../fonts/Orbitron/static/Orbitron-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Orbitron';
+    src: url('../fonts/Orbitron/static/Orbitron-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Orbitron';
+    src: url('../fonts/Orbitron/static/Orbitron-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Orbitron';
+    src: url('../fonts/Orbitron/static/Orbitron-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Orbitron';
+    src: url('../fonts/Orbitron/static/Orbitron-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Orbitron';
+    src: url('../fonts/Orbitron/static/Orbitron-Black.ttf') format('truetype');
+    font-weight: 900;
+}
+body {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    color: #132A13;
+    background-color: #ECF39E;
+    background: url(../images/metroidwallpaper.webp) no-repeat center center fixed;
+    background-size: cover;
+    padding: 200px;
+}
+
+header h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 900; /* Black */
+    color: #4F772D;
+}
+
+nav ul li a:link {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    color: #31572C;
+}
+
+nav ul li a:visited {
+    color: #90A955;
+}
+
+nav ul li a:hover {
+    color: #132A13;
+}
+
+nav ul li a:focus {
+    background-color: #132A13;
+    color: #ECF39E;
+}
+#wrap {
+    background-color: rgba(250, 255, 250, 0.85); /* blends with #ECF39E */
+}
+
+#mainSection {
+    background-color: rgba(207, 253, 251, 0.5); /* matches Coolors palette */
+    border-radius: 20px;
+}
+
+footer {
+    background-color: #5D737E;
+    color: #FCFFFD;
+    padding: 40px;
+}

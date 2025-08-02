@@ -1,0 +1,81 @@
+body {
+  font-family: 'Georgia', serif;
+  font-size: 16px;
+  background-color: #fffaf0;
+  padding: 20px;
+}
+
+h1 {
+  color: #2c3e50;
+}
+
+p {
+  color: #444;
+}
+
+a:link {
+  color: #1e90ff;
+}
+a:visited {
+  color: purple;
+}
+a:hover {
+  color: red;
+}
+a:active {
+  color: green;
+}
+
+.highlight {
+  background-color: #ffffcc;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+#intro {
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 0;
+  list-style: none;
+  
+}
+
+.flex-container li {
+  background-color: #00c2cb; 
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-family: 'Verdana', sans-serif;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.flex-container li:nth-child(2)  { background-color: #ff6f61; } 
+.flex-container li:nth-child(3)  { background-color: #ffc107; } 
+.flex-container li:nth-child(4)  { background-color: #00b894; } 
+.flex-container li:nth-child(5)  { background-color: #ff9f43; } 
+.flex-container li:nth-child(6)  { background-color: #10ac84; } 
+.flex-container li:nth-child(7)  { background-color: #54a0ff; } 
+.flex-container li:nth-child(8)  { background-color: #f368e0; } 
+
+.flex-container li:hover {
+  background-color: #333;
+  cursor: pointer;
+}
+
+.flex-container li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.flex-container li a:hover {
+  text-decoration: underline;
+}
